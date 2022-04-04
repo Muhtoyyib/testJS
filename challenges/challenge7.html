@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>JavaScript Basiv Challenges: Challenge 7</title>
+    <style>
+        body{
+            background-color: #ffe;
+        }
+
+        .jumbotron{
+            margin-top: 100px;
+            width: 100%;
+        }
+
+        button{
+            position: absolute;
+            right: 50px;
+            top: 80%;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-primary text-center">
+                JavaScript Basic Challenges
+            </h1>
+            <br>
+            <h2 class="text-secondary text-center">
+                Challenge Seven
+            </h2>
+            <hr>
+            <p class="text-center"> 
+                Update and save the file again, this time as <i>challenge7.html</i>
+            </p>
+            <p class="text-center">
+                For thid challenge, if the user types a number less than 10, use loop to print out the numbers from zero to 9 in the console.
+            </p>
+        </div>
+    </div>
+
+    <button class="btn-primary text-right"><a href="https://muhtoyyib.github.io/javaScriptBasicChallenges01-09/challenges/challenge8.html" class="text-light">Go to next challenge</a></button>
+    
+
+
+
+
+
+
+
+    
+    <script>
+      //var number = prompt("Please type in a number");
+        var msg = () => {
+            if(number < 10){
+                for(var i=0; i<10; i++){
+                    console.log(`The number is displayed here: ${i}`);
+                }
+            } else if (number > 9){
+                console.log('You entered a big number to the console');
+            } else {
+                if(isNaN(number)){
+                    console.log('ERROR: There was an error in the input');
+                }
+            }
+        }
+
+        msg();
+    </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
