@@ -63,8 +63,12 @@
         var msg = () => {
             if(number < 10){
                 console.log('You have entered a number smaller than 10');
-            } else{
+            } else if (number > 10){
                 console.log('You entered a big number to the console');
+            } else {
+                if(isNaN(number)){
+                    console.log('ERROR: There was an error in the input');
+                }
             }
         }
 
