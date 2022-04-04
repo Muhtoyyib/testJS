@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>JavaScript Basiv Challenges: Challenge 5</title>
+    <style>
+        body{
+            background-color: #ffe;
+        }
+
+        .jumbotron{
+            margin-top: 100px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-primary text-center">
+                JavaScript Basic Challenges
+            </h1>
+            <br>
+            <h2 class="text-secondary text-center">
+                Challenge Five
+            </h2>
+            <hr>
+            <p class="text-center"> 
+                Update and save the file again, this time as <i>challenge5.html</i>
+            </p>
+            <p class="text-center">
+                This time, use prompt and ask the user for a whole number. If they type in a number less than 10, have the console log report, "You have entered a number smaller than 10", otherwise, send "You entered a big number to the console."
+            </p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+    
+    <script>
+        var number = prompt("Please type in a number");
+        var msg = () => {
+            if(number < 10){
+                console.log('You have entered a number smaller than 10');
+            } else{
+                console.log('You entered a big number to the console');
+            }
+        }
+
+        msg();
+    </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
