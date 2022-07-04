@@ -1,3 +1,3 @@
 # TestJS
 
-This Challenge is created from JAVASCRIPT BASIC COURSE ON COUSERA for beginners to test their knowledge. Start here: https://muhtoyyib.github.io/javaScriptBasicChallenges01-09/challenges/beforechallenge.html
+This Challenge is created from JAVASCRIPT BASIC COURSE ON COUSERA for beginners to test their knowledge. Start here: [click here](https://muhtoyyib.github.io/testJS/challenges/beforechallenge.html)
